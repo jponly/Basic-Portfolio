@@ -4,10 +4,10 @@
   
     }
 
-
+/* Most updated Version */
 #head {
     color: white;
-    font-size: 19px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     background: 30px;
     background-color: #4aaaa5;
@@ -36,21 +36,25 @@ body {
         border-bottom: 3px;
     }
 
-    #para_floated {
+#para_floated {
         float: left;
         width: 900px;
         padding-bottom: 20px;
         padding-left: 50px;
+        font-family: Arial;
+
+}
         
 
+#para_font {
+        font-family: Arial, Helvetica, sans-serif
+}       
         
-        
-
-    }
 
 .links {
     color:#777777;
     padding-top:10px;
+    font-family: 'Times New Roman', Times, serif;
   
     }
 
@@ -76,10 +80,6 @@ nav a {
     
     }
 
-
-
-
-
 #about {
     color: #4aaaa5;
     padding-top: 40px;
@@ -97,24 +97,12 @@ nav a {
     
     }
 
-
 #mainImage {
     padding-left: 50px;
     padding-top: 0px;
     padding-bottom: 5px;
    
     }
-
-
-
-/*.hey {
-        display: block;     
-        height: 0px;
-        border: 0;
-        background-color: rgb(122, 230, 136);
-
-        *unsure if element is present in HMTL, may need styling
-    }*/
 
 /* Sizing of each Content Box */
 section { 
@@ -200,15 +188,10 @@ img {
         margin: 0 auto 3px auto;
         height: 60px;
         
-        }
+    }
 
 
-/*.clearfix::after {
-    content:"";
-    display: block;
-    clear: both;
-    
-    }*/
+
 
 
 .copyright {
@@ -232,7 +215,9 @@ img {
         color:#777777;
         text-align: left;
         padding-left:60px;
-        text-
+        font-size: 13px;
+        font-family: Arial;
+        
     }
 
 
@@ -243,10 +228,11 @@ img {
       
        
        
- }
+    }
 
 /*Styling header Font */
 .aboutTitle {
+       font-family: 'Times New Roman', Times, serif;
        color: #4aaaa5;      
        padding-right:750px;
        padding-top: 20px;
@@ -257,6 +243,7 @@ img {
     }
 
 .contactTitle {
+        font-family: 'Times New Roman', Times, serif;
         color: #4aaaa5;      
         padding-right:750px;
         padding-top: 20px;
@@ -264,9 +251,10 @@ img {
         font-size: 25px;
         
          
-     }
+    }
 
 .portTitle {
+        font-family: 'Times New Roman', Times, serif;
         color: #4aaaa5;      
         padding-right:660px;
         padding-top: 20px;
@@ -274,7 +262,7 @@ img {
         font-size: 25px;
         
          
-     }
+    }
 
 /*Styling for contact Box & Form Fields */
 div.gallery {
@@ -303,6 +291,7 @@ div.gallery img {
         margin-top: 110px;
         text-align: center;
         font-size: 12px;
+        font-family: Arial;
         color: white;
         background-color: #4aaaa5;
          
@@ -333,6 +322,7 @@ div.desc1 {
         margin-top: 110px;
         text-align: center;
         font-size: 12px;
+        font-family: Arial;
         color: white;
         background-color: #4aaaa5;
     }
@@ -363,6 +353,7 @@ div.desc2 {
       margin-top: 110px;
       text-align: center;
       font-size: 12px;
+      font-family: Arial;
       color: white;
       background-color: #4aaaa5;
     }
@@ -392,6 +383,7 @@ div.desc3 {
         text-align: center;
         color: white;
         font-size: 12px;
+        font-family: Arial;
         background-color: #4aaaa5;
     }
 
@@ -420,6 +412,7 @@ div.desc4 {
         margin-top: 110px;
         text-align: center;
         font-size: 12px;
+        font-family: Arial;
         color: white;
         background-color: #4aaaa5;
     }
@@ -427,13 +420,14 @@ div.desc4 {
 input {
         width: 390px;
         height: 25px;
-      }
+    }
 
       
 #textboxid {
+        margin-top: 1px;
         width: 390px;
         height: 120px;
-      }
+    }
 
       
 /* Style for the submit button */
@@ -454,6 +448,7 @@ input[type=submit] {
     height:40px;
     width:80px;
     font-size:10pt;
+    font-family: Arial;
   }
 
    
