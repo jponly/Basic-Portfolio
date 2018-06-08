@@ -12,7 +12,7 @@
     background: 30px;
     background-color: #4aaaa5;
     width: 200px;
-    Height: 63px;
+    Height: 62px;
     margin-left: 230px;
     float:left;
     padding-left: 10px;
@@ -59,6 +59,7 @@ body {
     }
 
 nav {
+    border-bottom: 2px solid rgb(211, 205, 207);
     background: #ffffff;
     width: 100%;
     max-width: 1500px;
